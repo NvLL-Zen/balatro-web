@@ -1,0 +1,97 @@
+* {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Jersey 10";
+    font-size: 1.5rem;
+    text-align: center;
+
+
+    border: 1px solid red;
+}
+
+.displayCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainScreen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.roundDetails {
+    height: 24%;
+}
+
+.roundScore {
+    height: 15%;
+    display: flex;
+}
+
+.scoreTitle {
+    width: 22.5%;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.scoreValue {
+    width: 77.5%;
+    font-size: 1.25rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.handDetails {
+    height: 24%;
+}
+
+.handShape {
+    height: 30%;
+}
+
+.multiplier {
+    height: 70%;
+}
+
+.runDetails {
+    height: 30%;
+}
+
+.playground {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.consumables {
+    height: 20%;
+}
+
+.table {
+    height: 60%;
+}
+
+.hand {
+    height: 30%;
+}
+
