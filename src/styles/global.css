@@ -8,7 +8,7 @@
     text-align: center;
 
 
-    border: 1px solid red;
+    border: 1px solid white;
 }
 
 .displayCenter {
@@ -37,6 +37,14 @@
     height: 24%;
 }
 
+.blindSize {
+    height: 30%;
+}
+
+.blindDetails {
+    height: 70%;
+}
+
 .roundScore {
     height: 15%;
     display: flex;
@@ -53,11 +61,12 @@
 
 .scoreValue {
     width: 77.5%;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
+    
 }
 
 .handDetails {
@@ -84,14 +93,14 @@
 }
 
 .consumables {
-    height: 20%;
+    height: 35%;
 }
 
 .table {
-    height: 60%;
+    height: 30%;
 }
 
 .hand {
-    height: 30%;
+    height: 35%;
 }
 
