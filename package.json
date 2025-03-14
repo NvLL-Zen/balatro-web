@@ -9,7 +9,8 @@
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"format": "prettier --write .",
-		"lint": "prettier --check . && eslint ."
+		"lint": "prettier --check . && eslint .",
+		"deploy": "npm run build && gh-pages -d build"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",
@@ -28,6 +29,7 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
-		"balatro": "."
+		"balatro": ".",
+		"gh-pages": "^6.3.0"
 	}
 }
