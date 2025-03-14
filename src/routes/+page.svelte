@@ -13,7 +13,7 @@
                 </h1>
             </div>
             <div class="handDetails">
-                <div class="handShape displayCenter">FL?SH</div>
+                <div class="handShape displayCenter">MOVE?</div>
                 <div class="multiplier displayCenter">? X ?</div>
             </div>
             <div class="runDetails">
