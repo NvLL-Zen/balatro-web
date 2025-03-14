@@ -1,5 +1,6 @@
 <script>
     import "../styles/global.css"
+    
 </script>
 <div class="mainScreen">
         <div class="menu">
